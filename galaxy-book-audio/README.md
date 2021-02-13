@@ -24,7 +24,7 @@ sudo mv /etc/modprobe.d/alsa-base.conf /etc/modprobe.d/alsa-base.conf.backup
 Move the file `TO912.sh` into your favorite location and set script permissions as read, write, executable for all.
 ```bash
 sudo mv TO912.sh /opt/galaxy-book-audio/TO912.sh
-sudo chmod a+rwx /opt/TO912.sh
+sudo chmod a+rwx /opt/galaxy-book-audio/TO912.sh
 ```
 
 Move ionsound.service into `/etc/systemd/system` and set file permissions to allow everyone to read.
