@@ -3,7 +3,7 @@ Description=Custom Sound
 
 [Service]
 Type=idle
-ExecStart=/opt/TO912.sh
+ExecStart=/opt/galaxy-book-audio/TO912.sh
 
 [Install]
 WantedBy=multi-user.target
